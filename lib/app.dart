@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
-void main() {
-  runApp(MyApp());
-}
+import './config_reader.dart';
 
 class MyApp extends StatelessWidget {
   @override
